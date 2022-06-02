@@ -580,6 +580,10 @@ input {
   letter-spacing: 0.03em;
 }
 
+.advantages__item:last-child {
+  margin-right: 0;
+}
+
 
 .advantages__list {
   padding: 0;
