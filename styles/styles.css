@@ -667,28 +667,28 @@ margin-right: 0px;
   padding-bottom: 94px;
 }
 
-.team-container {
+.team__container {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.team-links {
+.team__links {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 0;
 }
 
-.team-links > li {
+.team__social-links {
   margin-right: 10px;
 }
 
-.team-list > li {
+.team__item {
   background-color: var(--bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list {
+.team__list {
   text-align: center;
   padding-left: 0;
   display: flex;
@@ -696,7 +696,7 @@ margin-right: 0px;
   list-style: none;
 }
 
-.team-heading {
+.team__heading {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
@@ -705,7 +705,7 @@ margin-right: 0px;
   letter-spacing: 0.03em;
 }
 
-.team-mate {
+.team__mate {
   font-size: 16px;
   font-weight: 500;
   color: var(--main-text-color);
@@ -714,7 +714,7 @@ margin-right: 0px;
   margin-bottom: 10px;
 }
 
-.team-position {
+.team__position {
   font-size: 16px;
   font-weight: 400;
   color: var(--secondary-text-color);
@@ -743,7 +743,7 @@ margin-right: 0px;
 
 /* Cекція клієнтів */
 
-.clients-heading {
+.clients__heading {
   text-align: center;
   margin-bottom: 50px;
   font-size: 36px;
@@ -752,7 +752,7 @@ margin-right: 0px;
   letter-spacing: 0.03em;
 }
 
-.clients.list {
+.clients__list.list {
   display: flex;
   justify-content: center;
   align-items: center;
