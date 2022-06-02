@@ -650,6 +650,8 @@ position: relative;
 .offers__list {
   display: flex;
   justify-content: space-between;
+
+  padding-left: 0;
 }
 
 .offers__item:last-child {
