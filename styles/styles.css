@@ -779,12 +779,12 @@ margin-right: 0px;
 }
 
 
-.client-icon {
+.client__icon {
   fill: var(--icon-color);
   transition: var(--transition-cubic );
 }
-.client:focus .client-icon,
-.client:hover .client-icon {
+.client:focus .client__icon,
+.client:hover .client__icon {
   fill: var(--bg-buttons-color-hover);
 }
 
